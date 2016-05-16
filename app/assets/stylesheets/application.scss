@@ -1,1 +1,83 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
 @import "bootstrap";
+
+// .product-wrapper {
+//     position: relative;
+//     width: 80vw;
+//     left: 10vw;
+//     top: 4vw;
+//     height: 33vw;
+//
+//     .product-name {
+//       position: absolute;
+//       top: 1vw;
+//       text-transform: uppercase;
+//       font-family: sans-serif;
+//
+//       h4 {
+//         font-size: 2vw;
+//     }
+//   }
+//   .image-profile {
+//     position: absolute;
+//     width: 40vw;
+//     left: 0;
+//     top: 5vw;
+//   }
+//   .product-brand {
+//     position: absolute;
+//     left: 45vw;
+//     top: 5vw;
+//     text-transform: uppercase;
+//
+//     h5 {
+//       font-size: 1.5vw;
+//     }
+//   }
+//   .product-color {
+//     position: absolute;
+//     left: 44vw;
+//     top: 8vw;
+//     font-size: 2vw;
+//
+//     select.selectpicker {
+//         font-size: 1.5vw;
+//     }
+//   }
+//   .product-price {
+//     position: absolute;
+//     left: 55vw;
+//     top: 8.5vw;
+//     font-size: 1.5vw;
+//   }
+//   .product-available {
+//     position: absolute;
+//     left: 55vw;
+//     top: 11vw;
+//
+//     h5 {
+//       font-size: 1.5vw;
+//     }
+//   }
+//   .product-description {
+//     position: absolute;
+//     top: 15vw;
+//     left: 44vw;
+//     font-size: 1.5vw;
+//   }
+// }
