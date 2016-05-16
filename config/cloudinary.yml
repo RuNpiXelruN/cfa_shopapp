@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: runpixelrun
+  api_key: '153263998956882'
+  api_secret: "-yZtC9ZQCIp6-AkPuxAioq5uhVE"
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: runpixelrun
+  api_key: '153263998956882'
+  api_secret: "-yZtC9ZQCIp6-AkPuxAioq5uhVE"
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: runpixelrun
+  api_key: '153263998956882'
+  api_secret: "-yZtC9ZQCIp6-AkPuxAioq5uhVE"
+  enhance_image_tag: true
+  static_image_support: false
