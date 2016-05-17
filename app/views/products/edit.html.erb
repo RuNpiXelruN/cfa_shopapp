@@ -1,5 +1,9 @@
 <h1 class="edit-header">Edit Listing</h1>
 
+<div class="form-image-wraper">
+  <img class="form-image" src="<%= @product.image %>" alt="<%= @product.name %>">
+</div>
+
 <%= render 'form' %>
 
 <div class="product-edit-links">
