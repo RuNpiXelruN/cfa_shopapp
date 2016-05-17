@@ -2,6 +2,14 @@ Rails.application.routes.draw do
   resources :products
   resources :accounts
   root 'pages#home'
+
+  resources :products do
+    member do
+      get :like
+      get :unlike
+    end
+  end
+
   get 'pages/home'
 
   get 'pages/admin'
